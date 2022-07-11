@@ -26,7 +26,7 @@ for (let i = 0; i < dirs.length; i++) {
 
 function listDir(dir){
     const files = fs.readdirSync(dir);
-    const dirs = [];
+    const dirs = [dir];
     files.forEach(file => {
         const filePath = path.join(dir, file);
         const stat = fs.statSync(filePath);
