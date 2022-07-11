@@ -12,7 +12,7 @@ $ npx clear-npms
 MacOS 运行命令清除:
 
 ```bash
-sudo npx clear-npms
+$ sudo npx clear-npms
 ```
 
 指定清除的文件夹区间：
