@@ -1,0 +1,13 @@
+# System
+.DS_Store
+
+# IDE or eidtor
+.idea/
+.code/
+.vscode/
+
+# Dependency directories
+node_modules/
+package-lock.json
+
+# Local project test

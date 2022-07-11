@@ -1,0 +1,21 @@
+{
+  "name": "clear-npms",
+  "version": "0.2.0",
+  "description": "删除 node_modules 目录",
+  "main": "./index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "bin": {
+    "clear-npms": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ningbonb/clear-npms.git"
+  },
+  "author": "ningbonb",
+  "license": "ISC",
+  "dependencies": {
+    "ora": "^5.4.1"
+  }
+}
