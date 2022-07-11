@@ -16,7 +16,7 @@ for (let i = 0; i < dirs.length; i++) {
   spinner.start(`正在删除第 ${i+1} 个目录 ${dirs[i]} 的 node_modules`);
   const nodeModules = findNodeModules(dirs[i]);
   nodeModules.forEach(nodeModule => {
-    fs.rmdirSync(nodeModule, {recursive: true});
+    if(fs.existsSync(nodeModule)) fs.rmdirSync(nodeModule, {recursive: true});
     // exec(`rm -rf ${nodeModule}`, (err, stdout, stderr) => {
     //   if(err) spinner.fail(`删除失败：${nodeModule}`);
     // });
