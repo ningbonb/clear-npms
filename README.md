@@ -1,5 +1,5 @@
 # clear-npms
-删除当前目录、或制定目录区间内的 node_modules 文件夹。 
+删除当前目录、或指定目录区间内的 node_modules 文件夹。 
 
 ## 使用方法
 
